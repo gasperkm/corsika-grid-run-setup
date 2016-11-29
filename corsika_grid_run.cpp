@@ -130,7 +130,7 @@ int main(int argc, char* argv[])
   sNewInitial = corsika_file_format(iRunNum);
 
   // Construct the jobname from gathered information
-  sJobname = sNewInitial + "_" + GetParticle(iPrmPar) + "_en" + GetEnergy(dEnergy) + "_thin" + GetThin(dThinFrac) + "_zenith" + GetZenith(dZenith);
+  sJobname = GetParticle(iPrmPar) + "_en" + GetEnergy(dEnergy) + "_thin" + GetThin(dThinFrac) + "_zenith" + GetZenith(dZenith);
 
   cout << endl << "Parameters used:" << endl
      << "iRunNum   = " << iRunNum << endl

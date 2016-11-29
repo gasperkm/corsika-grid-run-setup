@@ -6,7 +6,7 @@
 (stdout=corsika_offline.log)
 (join=yes)
 (count=1)
-(jobname="corsika-offline_JOBNAME_bothgrid")
+(jobname="corsika-offline_DAT000001_JOBNAME_bothgrid")
 (runTimeEnvironment="APPS/BOTHAPP/CORSIKA-7.4005")(runTimeEnvironment="APPS/BOTHAPP/OFFLINE-1.00-V3R3P0")
 (notify="ec gasper.kukec@ung.si")
 (arguments="DAT000001" "HADRONMOD" "PREINST" "RECTYPE")
